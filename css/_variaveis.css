@@ -1,0 +1,32 @@
+:root {
+
+	--cor-tit-cent: #cf2c3bfc;
+	--cor-sub-cent: #6821a9fc;
+	--cor-tit-prin: #0d336ce0;
+	--cor-tit: #008B8B;
+	--cor-sub: #3cad7ef0;
+
+	--cor-tit-foot: #B22222;
+	--cor-path: #6536a3fc;
+	--cor-title-pro: #cf2c3bfc;
+	--cor-prologo: #574d7042;
+
+	--cor-bg-btn: #292f97db;
+	--cor-hover-btn: #008B8B;
+
+	--cor-btn-exit: #33365ed9;
+	--cor-btn-continue: #3b7c9fd4;
+
+	--modal-color: #2a2a42db;
+
+	--bg-color: #f8fffe;
+	
+	--white: #fff;
+
+	--font-sub-cent: 'Crimson Text', serif;
+	--font-titulo-central: 'Merriweather', serif;
+	--font-lista: 'Poppins', sans-serif;
+	--font-titulo: 'Montserrat', sans-serif;
+	--font-texto: 'Open Sans', sans-serif;
+
+};

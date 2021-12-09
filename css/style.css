@@ -1,0 +1,60 @@
+@import url("_variaveis.css");
+@import url("_base.css");
+
+.cdc:before {
+	content: "😏";
+	font-style: normal;
+}
+
+.raiva:before {
+	content: "😢";
+	font-style: normal;
+}
+
+.decp:before {
+	content: "🙁";
+	font-style: normal;
+}
+
+.path {
+	color: var(--cor-path);
+	font-size: 20px;
+}
+
+.prologo {
+	background-color: var(--cor-prologo);
+	padding: 10px 0;
+}
+
+.title-prologo {
+	color: var(--cor-title-pro);
+	text-align: center;
+}
+
+.titulo-over {
+	color: var(--cor-tit-cent);
+	font-size: 50px;
+	text-align: center;
+}
+
+.p-over{
+	color: var(--cor-tit-prin);
+	font-size: 35px;
+	text-align: center;
+}
+
+.alinhar {
+	text-align: center;
+}
+
+@media screen and (min-width: 320px) {
+	.alinhar {
+		text-align: justify;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.alinhar {
+		text-align: center;
+	}
+}

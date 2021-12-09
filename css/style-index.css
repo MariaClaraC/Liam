@@ -1,0 +1,89 @@
+@import url("_variaveis.css");
+@import url("_base.css");
+
+.game__botao {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 60%;
+	position: relative;
+}
+
+.modal-color {
+	background-color: var(--modal-color);
+	color: white;
+}
+
+.btn-exit {
+	background-color: var(--cor-btn-exit);
+	border-color: var(--cor-btn-exit);
+	border-radius: 8px;
+	color: var(--white);
+	padding: 8px 20px;
+	text-align: center;
+	transition: .5s ease-in-out
+}
+
+.btn-exit:hover {
+	background-color: var(--cor-hover-btn);
+	border-color: var(--cor-hover-btn);
+	color: var(--white);
+	font-style: italic;
+}
+
+.btn-continue {
+	background-color: var(--cor-btn-continue);
+	border-color: var(--cor-btn-continue);
+	border-radius: 8px;
+	color: var(--white);
+	padding: 8px 20px;
+	text-align: center;
+	transition: .5s ease-in-out
+}
+
+.btn-continue:hover {
+	background-color: var(--cor-hover-btn);
+	border-color: var(--cor-hover-btn);
+	color: var(--white);
+	font-style: italic;
+}
+
+.banner {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.tit_tester {
+	color: #cf2c3bfc;
+	font-family: 'Merriweather', serif;
+	font-size: 3.98rem;
+	position: relative;
+	padding-top: 10%;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.tit_tester {
+		font-size: 5.5rem;
+	}
+
+	.game__botao {
+		padding-top: 30%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.tit_tester {
+		font-size: 7rem;
+	}
+
+	.game__botao {
+		padding-top: 15%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.game__botao {
+		padding-top: 10%;
+	}
+}

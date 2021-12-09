@@ -1,0 +1,103 @@
+.will {
+	width: 100%;
+	height: 410px;
+}
+
+.mark-will {
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+}
+
+.ruby-will {
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+}
+
+.conteiner {
+	display: block;
+}
+
+.hideado {
+	display: block;
+}
+
+.blur {
+	opacity: 0;
+	transition: 1s;
+}
+
+.no-blur {
+	opacity: 1;
+	transition: 5s;
+}
+
+@media screen and (min-width: 768px) {
+	.will {
+		height: 545px;
+		width: 500px;
+	}
+
+	.mark-will {
+		height: 600px;
+		width: 768px;
+	}
+
+	.ruby-will {
+		height: 600px;
+		width: 768px;
+	}
+
+	.conteiner-w {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hideado-w {
+		display: flex;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.will {
+		height: 545px;
+		width: 500px;
+	}
+
+	.mark-will {
+		height: 700px;
+		width: 1024px;
+	}
+
+	.ruby-will {
+		height: 700px;
+		width: 1024px;
+	}
+}
+
+@media screen and (min-width: 1165px) {
+	.will {
+		height: 545px;
+		width: 500px;
+	}
+
+	.mark-will {
+		height: 545px;
+		width: 665px;
+	}
+
+	.ruby-will {
+		height: 600px;
+		width: 768px;
+	}
+
+	.conteiner {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hideado {
+		display: flex;
+	}
+}

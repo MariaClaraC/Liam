@@ -1,0 +1,140 @@
+body {
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.titulo-central {
+	color: var(--cor-tit-cent);
+	font-family: var(--font-titulo-central);
+}
+
+.subtitulo-central  {
+	color: var(--cor-sub-cent); 
+	font-family: var(--font-sub-cent);
+	font-size: 2.5rem;
+}
+
+.titulo-principal {
+	color: var(--cor-tit-prin);
+	font-size: 1.8rem;
+}
+
+.titulo {
+	color: var(--cor-tit);
+	font-family: var(--font-titulo);
+	font-size: 1.5rem;
+}
+
+.subtitulo {
+	color: var(--cor-sub);
+	font-size: 20px; 
+}
+
+.lista {
+	font-family: var(--font-lista);
+	list-style: none;
+}
+
+li.item {
+	cursor: pointer;
+}
+
+.item:before {
+	content: "✧"
+}
+
+.item:after {
+	content: "✧";
+}
+
+.item {
+	padding-right: 15px;
+}
+
+p {
+	font-family: var(--font-texto);
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.invisivel {
+	position: absolute;
+	left: -999em;
+}
+
+a {
+	color: var(--white);
+	text-decoration: none;
+}
+
+li a {
+	color: black;
+}
+
+a:hover {
+	color: var(--white);
+}
+
+li a:hover {
+	color: black;
+}
+
+.btn {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+
+
+.botao {
+	background-color: var(--cor-bg-btn);
+	border-color: var(--cor-bg-btn);
+	border-radius: 8px;
+	color: var(--white);
+	padding: 12px 35px;
+	text-align: center;
+	transition: .6s;
+}
+
+.botao:hover {
+	background-color: var(--cor-hover-btn);
+	border-color: var(--cor-hover-btn);
+	color: var(--white);
+	font-style: italic;
+	transform: scale(1.2);
+}
+
+.rodape {
+	background-color: var(--white);
+	border-top: 1px solid black;
+	text-align: center;
+	margin-top: 10px;
+	padding: 2rem;
+}
+
+.titulo-rodape {
+	color: var(--cor-tit-foot);
+}
+
+@media screen and (min-width: 320px) {
+	body {
+		text-align: justify;
+	}
+
+	.titulo, .subtitulo, .titulo-central, .subtitulo-central, .titulo-principal, .title-prologo {
+		text-align: center;
+		padding-right: 10px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		text-align: left;
+	}
+
+	.titulo, .subtitulo, .titulo-central, .subtitulo-central, .titulo-principal, .title-prologo {
+		text-align: left;
+		padding-left: 10px;
+	}
+}

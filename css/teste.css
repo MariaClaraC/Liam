@@ -1,0 +1,21 @@
+.blur {
+	opacity: 0;
+	transition: 2s;
+}
+
+.no-blur {
+	opacity: 1;
+	transition: 2s;
+}
+
+.invisivel {
+	position: absolute;
+}
+
+.apagar {
+	display: none;
+}
+
+.red {
+	background-color: red;
+}
